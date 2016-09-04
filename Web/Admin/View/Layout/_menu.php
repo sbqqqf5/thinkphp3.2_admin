@@ -1,4 +1,4 @@
-    <div id="wrapper">
+
         <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
@@ -95,7 +95,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="table.html"><i class="fa fa-flash "></i>Data Tables </a>
+                        <a href="<?=U('Index/table') ?>"><i class="fa fa-flash "></i>Data Tables </a>
                         
                     </li>
                      <li>
@@ -154,6 +154,3 @@
             </div>
 
         </nav>
-        <!-- /. NAV SIDE  -->
-        <div id="page-wrapper">
-            <div id="page-inner">

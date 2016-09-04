@@ -18,5 +18,17 @@ class IndexController extends Controller
         $this->display();
     }
 
+    public function table()
+    {
+        $this->display();
+    }
+
+    public function delete()
+    {
+        $result = [true,'操作成功'];
+        $result = [false,I('post.id')];
+        $this->ajaxReturn( $result );
+    }
+
 
 }
